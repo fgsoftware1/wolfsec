@@ -1,0 +1,38 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+#pulseaudio {
+  border: 2px solid #4FC3F7;   /* Light blue */
+  border-radius: 6px;
+  margin: 2px 4px;
+  background: rgba(30, 30, 30, 0.0);
+}
+
+#cpu {
+  border: 2px solid #81C784;   /* Green */
+  border-radius: 6px;
+  margin: 2px 4px;
+  background: rgba(30, 30, 30, 0.0);
+} 
+
+#memory {
+  border: 2px solid #FFD54F;   /* Yellow */
+  border-radius: 6px;
+  margin: 2px 4px;
+  background: rgba(30, 30, 30, 0.0);
+}
+
+#network {
+  border: 2px solid #BA68C8;   /* Purple */
+  border-radius: 6px;
+  margin: 2px 4px;
+  background: rgba(30, 30, 30, 0.0);
+}
+
+#battery {
+  border: 2px solid #E57373;   /* Red */
+  border-radius: 6px;
+  margin: 2px 4px;
+  background: rgba(30, 30, 30, 0.0);
+}
