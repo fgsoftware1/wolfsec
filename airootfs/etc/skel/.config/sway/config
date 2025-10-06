@@ -4,13 +4,16 @@ set $mod Mod4
 exec "waybar &"
 
 output * scale 1
-output * bg ~/Pictures/wolf.png fill
+output * bg ~/Pictures/wallpapers/wolf.png fill
 
 # shorcuts
 bindsym $mod+Shift+q kill
-bindsym $mod+Return exec $term
+bindsym $mod+Return exec $term --maximized
 bindsym $mod+d exec wofi
 bindsym $mod+Shift+e exec swaymsg exit
+
+# power options
+bindsym $mod+Shift+w exec wlogout
 
 # move windows
 bindsym $mod+h focus left
