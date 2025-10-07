@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mkarchiso -r -w /tmp/work -o out -m iso -v .
+mkarchiso -r -w work -o out -m iso -v .
