@@ -9,18 +9,11 @@ output * bg ~/Pictures/wallpapers/wolf.png fill
 # shorcuts
 bindsym $mod+Shift+q kill
 bindsym $mod+Return exec $term --maximized
-bindsym $mod+d exec wofi
+bindsym $mod+d exec wofi --show drun
 bindsym $mod+Shift+e exec swaymsg exit
 
 # power options
 bindsym $mod+Shift+w exec wlogout
 
-# move windows
-bindsym $mod+h focus left
-bindsym $mod+l focus right
-bindsym $mod+j focus down
-bindsym $mod+k focus up
-
 # layout
 bindsym $mod+f fullscreen toggle
-bindsym $mod+Shift+space floating toggle
