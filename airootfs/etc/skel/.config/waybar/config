@@ -29,10 +29,14 @@
       "car": "",
       "default": ["", ""]
     },
-    "on-click": "pavucontrol"
+    "on-click": "pavucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "scroll-step": 5,
+    "max-volume": 100
   },
   "cpu": { 
-    "interval": 10, 
+    "interval": 30, 
     "format": "CPU: {usage}%" 
   },
   "memory": {
@@ -51,6 +55,7 @@
   },
   "network": {
     "format-wifi": "　{signalStrength}%",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) - {ipaddr}",
     "format-ethernet": "{ifname}: {ipaddr}",
     "format-disconnected": "⚠"
   },

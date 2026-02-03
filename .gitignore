@@ -6,12 +6,6 @@ out/
 # PACKAGES
 # local repository files
 localrepo/*
-localrepo/localrepo.db
-localrepo/localrepo.files
-# wlogout package files
-localrepo/wlogout-1.2.2-0-x86_64.pkg.tar.zst
-localrepo/wlogout-debug-1.2.2-0-x86_64.pkg.tar.zst
-packages/wlogout/pkg
-packages/wlogout/src
-packages/wlogout/wlogout-1.2.2.tar.gz
-packages/wlogout/wlogout-1.2.2.tar.gz.sig
+
+packages/wlogout
+packages/kando
