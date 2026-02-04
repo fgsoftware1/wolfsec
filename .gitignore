@@ -1,10 +1,11 @@
 # ISO STUFF
 out/
 *.iso
+pacman-build.conf
 
 # PACKAGES
 # local repository files
 localrepo/*
 
-packages/wlogout
-packages/kando
+*.tar
+*.gz

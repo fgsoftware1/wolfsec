@@ -26,9 +26,9 @@ Setup with Docker (Recommended)
 
 2. Run the container to build the ISO::
 
-    bash run-container.sh
+    up a container with the image
 
-   The ISO will be generated in the `out/` directory.
+    The ISO will be generated in the `out/` directory.
 
 Barebones Setup on Arch-based Distro
 -------------------------------------
@@ -44,7 +44,7 @@ If you prefer to build directly on your Arch system:
 
     bash setup.sh
 
-   The ISO will be generated in the `out/` directory.
+    The ISO will be generated in the `out/` directory.
 
 Contributing
 ------------

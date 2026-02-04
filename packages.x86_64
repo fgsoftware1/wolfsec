@@ -69,13 +69,11 @@ tpm2-tss
 udftools
 usb_modeswitch
 usbmuxd
-
 #BOOTLOADER
 syslinux
 grub
 edk2-shell
 efibootmgr
-
 #FILESYSTEM
 xfsprogs
 squashfs-tools
@@ -87,11 +85,9 @@ e2fsprogs
 exfatprogs
 f2fs-tools
 fatresize
-
-#VM 
+#VM
 open-vm-tools
 qemu-guest-agent
-
 #CONN
 net-tools
 broadcom-wl
@@ -114,7 +110,6 @@ darkhttpd
 dhcpcd
 bind
 lynx
-
 #UTILS
 fish
 greetd
@@ -128,7 +123,6 @@ pavucontrol
 less
 usbutils
 diffutils
-
 #DESKTOP
 ttf-jetbrains-mono-nerd
 sway
@@ -140,5 +134,4 @@ wofi
 mesa
 foot
 wlogout
-
 kando-git
